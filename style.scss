@@ -1,0 +1,42 @@
+@import 'reset';
+@import 'variables';
+
+body {
+  width: 100%;
+  font-family: arial;
+}
+
+.wrapper {
+  border: solid $aquamarine-color 5px;
+  margin: 100px auto 0;
+  width:  40%;
+}
+
+.card-container {
+  background: $aquamarine-color;
+  height:     280px;
+  margin:     20px auto;
+  width:      90%;
+}
+
+.card-container img {
+  float: left;
+  width: 238px;
+  height: 192px;
+  padding: 20px;
+}
+
+.card-container ul {
+  float: left;
+  line-height: 2;
+  padding-top: 50px;
+  margin-left: 15px;
+}
+
+footer {
+ text-align: center;
+ clear: both;
+ background-color: black;
+ color: white;
+ padding: 36px;
+}
